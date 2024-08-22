@@ -16,9 +16,9 @@ public class Complex {
         arith b=new arith(rp,ip);
         arith c=new arith();
         c.add(a,b);
-        System.out.println("Sum of 1st and 2nd complex number is "+c.rp+" "+c.ip);
+        System.out.println("Sum of 1st and 2nd complex number is "+c.rp+"+("+c.ip+"i)");
         arith d=new arith();
         d.sub(a,b);
-        System.out.println("Difference of 1st and 2nd complex number is "+d.rp+" "+d.ip);
+        System.out.println("Difference of 1st and 2nd complex number is "+d.rp+"+("+d.ip+"i)");
     }
 }
